@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat&family=Poppins:wght@500;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right bottom,blue,blueviolet);
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.card{
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 12px;
+}
+.logo1 img{
+    width: 50px;
+}
+.photo h3{
+    font-family: 'montserrat';
+}
+.photo p{
+    padding-top: 4px;
+}
+.photo img{
+    width: 300px;
+    height: 200px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.couleur{
+    display: flex;
+}
+
+b {
+    font-size: 25px;
+}
+.bleu{
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.rose{
+    background-color: rgba(219, 31, 62, 0.927);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    outline-offset: 2px;
+    outline: 1px solid  rgba(219, 31, 62, 0.927);
+}
+.jaune{
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.number{
+    font-family: 'montserrat';
+    font-size: 20px;
+}
+.number:last-child{
+    font-size: 10px;
+}
+
+button{
+    background: linear-gradient(to right,blue,blueviolet);
+    padding: 10px 50px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    margin-top: 33px;
+    width:100%;
+}
